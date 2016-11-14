@@ -11,7 +11,6 @@ public class ex04 {
 	}
 	public static Long fun(Long n) {
 		Scanner sc=new Scanner(System.in);
-		long sum=1;
 		if(n==1)
 			return 1L;
 		else
