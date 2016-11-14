@@ -5,8 +5,6 @@ public class hw03 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		C(sc.nextInt(),sc.nextInt());
-		
-
 	}
 	public static void C(int m,int n) {
 		fun(m);//m¶¥­¼
