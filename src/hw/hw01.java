@@ -15,7 +15,7 @@ public class hw01 {
             }
         }
         ab=a*b/max;
-        for (int i = 2; i <= a; i++) {
+        for (int i = 2; i <= ab; i++) {
             if (ab % i == 0 && c % i == 0) {
                 max = i;   //max程そ计           ab*c / max -->程そ计
             }
