@@ -6,7 +6,7 @@ public class hw04 {
 		Scanner sc=new Scanner(System.in);
 		System.out.print(gcd(sc.nextInt(),sc.nextInt(),2,1));
 	}
-	public static int gcd(int m,int n,int i,int max) {
+	public static int gcd(int m,int n,int i,int max) {  //i= 共同除數  max= 最大公因數
         if(m % i == 0 && n % i == 0){
         	max=i;
         	return max=gcd(m,n,i+1,max);
